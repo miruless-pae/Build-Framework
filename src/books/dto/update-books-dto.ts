@@ -3,5 +3,4 @@ export class UpdateBooksDto {
     readonly author?: string;
     readonly isbn?: string;
     readonly publishedYear?: number;
-    readonly isAvailable?: boolean;
 }

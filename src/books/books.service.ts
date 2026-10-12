@@ -11,8 +11,7 @@ export class BooksService {
             title: 'The Great Gatsby',                
             author: 'F. Scott Fitzgerald',
             isbn: '978-0-7432-7356-5',
-            publishedYear: 1925,
-            isAvailable: true
+            publishedYear: 1925
         },
         {
             id: 2,
@@ -20,15 +19,13 @@ export class BooksService {
             author: 'Harper Lee',
             isbn: '978-0-06-112008-4',
             publishedYear: 1960,
-            isAvailable: false
         },
         {
             id: 3,
             title: '1984',
             author: 'George Orwell',
             isbn: '978-0-452-28423-4',
-            publishedYear: 1948,
-            isAvailable: true
+            publishedYear: 1948
         }
     ];
 
@@ -43,8 +40,7 @@ export class BooksService {
             title: inputbook.title,
             author: inputbook.author,
             isbn: inputbook.isbn,
-            publishedYear: inputbook.publishedYear,
-            isAvailable: true
+            publishedYear: inputbook.publishedYear
         };
         this.books.push(newBook);
         return newBook;
